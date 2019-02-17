@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build --tag ftb-dw20 .
+docker build --tag minecraft-atm-3 .
