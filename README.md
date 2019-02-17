@@ -7,6 +7,6 @@ Run with:
 docker run -d \
 	-p 25565:25565 \
 	-v /local/path/to/world:/minecraft/world \
-	cochief/all-the-mods-3
+	joelyuk/all-the-mods-3
 ```
 
