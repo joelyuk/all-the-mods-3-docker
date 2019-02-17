@@ -13,8 +13,8 @@ RUN apk update && apk add curl bash
 RUN mkdir -p /minecraft/world
 
 RUN curl -LO https://media.forgecdn.net/files/2639/211/All+the+Mods+3+v5.11.2-Serverfiles-FULL.zip
-RUN unzip All+the+Mods+3+v5.11.2-Serverfiles-FULL.zip && mv All+the+Mods+3+v5.11.2-Serverfiles-FULL/* ./
-RUN rmdir All+the+Mods+3+v5.11.2-Serverfiles-FULL && rm All+the+Mods+3+v5.11.2-Serverfiles-FULL.zip
+RUN unzip All+the+Mods+3+v5.11.2-Serverfiles-FULL.zip
+RUN rm All+the+Mods+3+v5.11.2-Serverfiles-FULL.zip
 
 
 # Accept EULA
